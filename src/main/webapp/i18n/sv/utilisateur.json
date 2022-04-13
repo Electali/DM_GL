@@ -1,0 +1,28 @@
+{
+  "coopcycleApp": {
+    "utilisateur": {
+      "home": {
+        "title": "Utilisateurs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Utilisateur",
+        "createOrEditLabel": "Skapa eller ändra en Utilisateur",
+        "notFound": "No Utilisateurs found"
+      },
+      "created": "En ny Utilisateur är skapad med id {{ param }}",
+      "updated": "En Utilisateur är uppdaterad med id  {{ param }}",
+      "deleted": "En Utilisateur är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Utilisateur {{ id }}?"
+      },
+      "detail": {
+        "title": "Utilisateur"
+      },
+      "id": "ID",
+      "nom": "Nom",
+      "panier": "Panier",
+      "course": "Course",
+      "restaurant": "Restaurant",
+      "cooperative": "Cooperative"
+    }
+  }
+}

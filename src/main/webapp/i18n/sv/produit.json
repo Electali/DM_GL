@@ -1,0 +1,27 @@
+{
+  "coopcycleApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Produit",
+        "createOrEditLabel": "Skapa eller ändra en Produit",
+        "notFound": "No Produits found"
+      },
+      "created": "En ny Produit är skapad med id {{ param }}",
+      "updated": "En Produit är uppdaterad med id  {{ param }}",
+      "deleted": "En Produit är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "id": "ID",
+      "nom": "Nom",
+      "description": "Description",
+      "restaurant": "Restaurant",
+      "panier": "Panier"
+    }
+  }
+}

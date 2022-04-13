@@ -1,0 +1,27 @@
+{
+  "coopcycleApp": {
+    "restaurant": {
+      "home": {
+        "title": "Restaurants",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Restaurant",
+        "createOrEditLabel": "Skapa eller ändra en Restaurant",
+        "notFound": "No Restaurants found"
+      },
+      "created": "En ny Restaurant är skapad med id {{ param }}",
+      "updated": "En Restaurant är uppdaterad med id  {{ param }}",
+      "deleted": "En Restaurant är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Restaurant {{ id }}?"
+      },
+      "detail": {
+        "title": "Restaurant"
+      },
+      "id": "ID",
+      "nom": "Nom",
+      "adresse": "Adresse",
+      "utilisateur": "Utilisateur",
+      "produit": "Produit"
+    }
+  }
+}

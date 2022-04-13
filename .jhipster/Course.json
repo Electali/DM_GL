@@ -1,0 +1,42 @@
+{
+  "applications": "*",
+  "changelogDate": "20220413101336",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "course",
+  "fields": [
+    {
+      "fieldName": "adresse",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Course",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "panier",
+      "otherEntityRelationshipName": "course",
+      "ownerSide": true,
+      "relationshipName": "panier",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "paiement",
+      "otherEntityRelationshipName": "course",
+      "ownerSide": true,
+      "relationshipName": "paiement",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "utilisateur",
+      "otherEntityRelationshipName": "course",
+      "relationshipName": "utilisateur",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

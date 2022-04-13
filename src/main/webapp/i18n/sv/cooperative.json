@@ -1,0 +1,25 @@
+{
+  "coopcycleApp": {
+    "cooperative": {
+      "home": {
+        "title": "Cooperatives",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Cooperative",
+        "createOrEditLabel": "Skapa eller ändra en Cooperative",
+        "notFound": "No Cooperatives found"
+      },
+      "created": "En ny Cooperative är skapad med id {{ param }}",
+      "updated": "En Cooperative är uppdaterad med id  {{ param }}",
+      "deleted": "En Cooperative är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Cooperative {{ id }}?"
+      },
+      "detail": {
+        "title": "Cooperative"
+      },
+      "id": "ID",
+      "nom": "Nom",
+      "utilisateur": "Utilisateur"
+    }
+  }
+}
