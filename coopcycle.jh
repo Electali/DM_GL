@@ -1,0 +1,58 @@
+
+entity Utilisateur {
+	nom String required minlength(3)
+}
+
+entity Course {
+	adresse String required
+}
+
+
+entity Panier {
+}
+
+entity Produit {
+	nom String,
+    description String
+}
+
+entity Restaurant {
+	nom String,
+	adresse String required
+}
+
+
+entity Paiement {
+	montant Long required min(0),
+    moyen String required
+}
+
+entity Cooperative {
+	nom String
+}
+
+
+
+relationship OneToOne {
+	Course to Panier,
+    Course to Paiement
+}
+
+relationship OneToMany {
+	Utilisateur to Panier,
+    Utilisateur to Course,
+    Utilisateur to Restaurant,
+    Panier to Produit,
+}
+
+relationship ManyToOne {
+	Produit to Restaurant
+}
+
+relationship ManyToMany {
+	Utilisateur to Cooperative
+}
+
+dto * with mapstruct
+service * with serviceImpl
+
